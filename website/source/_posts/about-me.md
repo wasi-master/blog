@@ -3,7 +3,6 @@ title: About Me
 date: 2022-01-01 02:28:23
 tags: about me
 categories: Introduction
-thumbnailImagePosition: left
 thumbnailImage: logo.jpg
 ---
 
