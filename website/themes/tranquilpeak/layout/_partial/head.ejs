@@ -146,6 +146,7 @@ var feeds = [];
             <link rel="alternate" type="application/<%= feed.type %>+xml" title="RSS" href="<%- url_for(feed.path) %>">
         <% }) %>
     <% } %>
+    <%- json_ld() %>
     <%- open_graph({
         type: 'blog',
         twitter_id: theme.author.twitter,
@@ -179,10 +180,7 @@ var feeds = [];
         <% }) %>
     <% } %>
     <!--STYLES-->
-    <%- css('assets/css/all.css') %>
-    <%- css('assets/css/jquery.fancybox.css') %>
-    <%- css('assets/css/thumbs.css') %>
-    <%- css('assets/css/tranquilpeak.css') %>
+    <%- css('assets/css/style-2fjlk6e4cypxtfujwrlhqejnikua6jtcqfyca9vsstymctrjslqkjpill9sx.min.css') %>
     <!--STYLES END-->
     <%- partial('google-analytics') %>
     <%- partial('baidu-analytics') %>
