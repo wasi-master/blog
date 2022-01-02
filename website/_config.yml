@@ -126,11 +126,19 @@ algolia:
     - categories
     - thumbnailImageUrl
 
+# Nofollow config
+nofollow:
+  enable: true
+  exclude:
+    - wasi-master.github.io
+    - wasi-master.netlify.app
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 plugins:
   - hexo-algoliasearch
+  - hexo-autonofollow
 theme: tranquilpeak
 
 # Deployment
