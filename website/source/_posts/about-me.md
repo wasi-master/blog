@@ -1,12 +1,15 @@
 ---
 title: About Me
-date: 2022-01-01 02:28:23
+date: 2022-01-01 00:00:00
 tags: about me
 categories: Introduction
 thumbnailImage: logo.jpg
 ---
 
 <!-- toc -->
+
+You somehow have stumbled across my blog and are wondering who is this guy? Is he even a real person? Or you just don't care and want to go on about your life in that case feel free to click away. In this post I'll give a introduction to myself and share some details about my job what I do, what I don't do, and some nice information about myself with some facts
+<!-- more -->
 
 ## Who am I?
 
