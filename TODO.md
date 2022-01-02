@@ -1,0 +1,2 @@
+- [ ] Implement [algolia search](https://www.algolia.com/) with [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch)
+- [ ] Add a cool 404 page to [wasi-master.github.io](https://wasi-master.github.io)
