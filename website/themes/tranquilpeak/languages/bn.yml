@@ -1,0 +1,86 @@
+# date format displayed everywhere in the blog
+date_format: "MMM DD, YYYY"
+
+global:
+    home: "হোম"
+    categories: "ক্যাটাগরি এর তালিকা"
+    category: "ক্যাটাগরি"
+    tags: "ট্যাগ এর তালিকা"
+    tag: "ট্যাগ"
+    archives: "আরকাইভ এর তালিকা"
+    search: "সার্চ"
+    about: ""
+    author_picture: "লেখক এর ছবি"
+    github: "GitHub"
+    stack_overflow: "Stack Overflow"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    google_plus: "Google +"
+    weibo: "Weibo"
+    qq: "QQ"
+    qzone: "Qzone"
+    renren: "Renren"
+    vk: "VK"
+    odnoklassniki: "Odnoklassniki"
+    linkedin: "LinkedIn"
+    mail: "Mail"
+    rss: "RSS"
+    share_on_facebook: "Facebook এ শেয়ার করুন"
+    share_on_twitter: "Twitter  এ শেয়ার করুন"
+    share_on_google_plus: "Google+  এ শেয়ার করুন"
+    share_on_weibo: "Weibo এ শেয়ার করুন"
+    share_on_qq: "QQ এ শেয়ার করুন"
+    share_on_qzone: "Qzone এ শেয়ার করুন"
+    share_on_renren: "Renren এ শেয়ার করুন"
+    share_on_vk: "VK এ শেয়ার করুন"
+    share_on_odnoklassniki: "Odnoklassniki এ শেয়ার করুন"
+    search_category: "ক্যাটাগরি অনুসন্ধান করুন"
+    search_tag: "ট্যাগ অনুসন্ধান করুন"
+    search_date: "সার্চ এর তারিখ (YYYY/MM/DD)"
+    posts_found:
+        zero: "কোনো পোস্ট পাওয়া যায়নি"
+        one: "১ টি পোস্ট পাওয়া গেছে"
+        other: "{n} টি পোস্ট পাওয়া গেছে"
+    categories_found:
+        zero: "কোনো ক্যাটাগরি পাওয়া যায়নি"
+        one: "১ টি ক্যাটাগরি পাওয়া গেছে"
+        other: "{n} টি ক্যাটাগরি পাওয়া গেছে"
+    tags_found:
+        zero: "কোনো ট্যাগ পাওয়া যায়নি"
+        one: "১ টি ট্যাগ পাওয়া গেছে"
+        other: "{n} টি ট্যাগ পাওয়া গেছে"
+    read_more_about_author: "লেখকের ব্যাপারে আরো জানুন"
+    zoom_in_on_picture: "ছবিতে জুম করুন"
+    go_to_homepage: "হোম পেজ এ যান"
+    open_link: "লিঙ্কটি ওপেন করুন"
+    open_post: "পোস্ট টি ওপেন করুন"
+
+pagination:
+    page: "পেজ %d"
+    of: "%d এর মধ্যে"
+    newer_posts: "নতুন পোস্টগুলি"
+    older_posts: "পুরাতন পোস্টগুলি"
+    previous: "অগ্রিম"
+    next: "পরবর্তি"
+
+post:
+    no_title : "শিরোনাম নেই"
+    categorized_in: "ক্যাটেগরি"
+    tagged_in: "ট্যাগ"
+    toc: "সুচিপত্র"
+    back_to_top: "উপরে ফিরে যান"
+    read_more: "পড়া অব্যহত করুন"
+    go_to_website: "ওয়েবসাইট এ যান"
+    comment_and_share: "কমেন্ট ও শেয়ার করুন"
+    comment: "একটা কমেন্ট করুন"
+    share: "পোস্টটি শেয়ার করুন"
+    gallery: "গ্যালারী"
+    image:
+        one: "ছবি"
+        other: "%d টি ছবি"
+
+author:
+    # Your biography (Markdown and HTML supported)
+    bio: বাংলাদেশ এর একটি বহুদিকে মেধাবী বালক
+    # Your job
+    job: ছাত্র
