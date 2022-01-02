@@ -6,7 +6,8 @@
 title: Wasi Master's Blog
 subtitle: ''
 description: "The personal blog of Wasi Master aka. Arian Mollik Wasi"
-keywords: "Arian Mollik Wasi"
+keywords:
+  - "Arian Mollik Wasi"
 author: "Arian Mollik Wasi"
 language: en
 timezone: 'Asia/Dhaka'
