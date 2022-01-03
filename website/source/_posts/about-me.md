@@ -3,7 +3,8 @@ title: About Me
 date: 2022-01-01 00:00:00
 tags: about me
 categories: Introduction
-thumbnailImage: logo.jpg
+thumbnailImage: https://i.imgur.com/VNviYLV.jpg
+coverImage: https://i.imgur.com/so24nGe.jpg
 ---
 
 <!-- toc -->
