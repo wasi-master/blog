@@ -10,4 +10,9 @@
         <span><%= __('post.categorized_in')  %> </span>
         <%- partial('category', {categories: post.categories})%>
     <% } %>
+    <div>
+        <span class="post-count">
+            <span style="color:#69b870;"><%= min2read(post.content) %> min to read</span> · <%= wordcount(post.content) %> words
+        </span>
+    </div>
 </div>

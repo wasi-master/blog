@@ -139,6 +139,7 @@ nofollow:
 plugins:
   - hexo-algoliasearch
   - hexo-autonofollow
+  - hexo-wordcount
 theme: tranquilpeak
 
 # Deployment
