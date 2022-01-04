@@ -598,22 +598,25 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active: gittalk
+  active: discus
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: true
+  lazyload: false
   # Modify texts or order for any naves, here are some examples.
   nav:
-    gitalk:
-      text: Use Gittalk
-      order: -1
-    utterances:
-      text: Use Utterances
-      order: -1
     disqus:
-      text: Load Disqus
-      order: -3
+      text: Comment with Disqus
+      order: 1
+    giscus:
+      text: Comment with Giscus
+      order: 2
+    gitalk:
+      text: Comment with Gittalk
+      order: 3
+    utterances:
+      text: Comment with Utterances
+      order: 4
 
 # Disqus
 # For more information: https://disqus.com
@@ -676,6 +679,24 @@ utterances:
 # For more information: https://posativ.org/isso/
 isso: # <data_isso>
 
+# Giscus
+# For more information: https://github.com/next-theme/hexo-next-giscus
+giscus:
+  enable: true
+  repo: wasi-master/blog # Github repository name
+  repo_id: R_kgDOGnLqpA # Github repository id
+  category: Blog Post # Github discussion category
+  category_id: DIC_kwDOGnLqpM4CAip # Github discussion category id
+  # Available values: pathname | url | title | og:title
+  mapping: pathname
+  # Available values: 0 | 1
+  reactions_enabled: 1
+  # Available values: light | dark | dark_high_contrast | transparent_dark | preferred-color-scheme
+  theme: dark
+  # Available values: en | zh-C
+  lang: en
+  # Available value: anonymous
+  crossorigin: anonymous
 
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
