@@ -3,8 +3,8 @@ title: About Me
 date: 2022-01-01 00:00:00
 tags: about me
 categories: Introduction
-thumbnailImage: https://i.imgur.com/VNviYLV.jpg
-coverImage: https://i.imgur.com/so24nGe.jpg
+thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/thumbnails/VNviYLV.jpg
+coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/so24nGe.jpg
 ---
 
 <!-- toc -->

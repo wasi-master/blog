@@ -3,8 +3,8 @@ title: How do I learn new programming languages so easily?
 date: 2022-01-02 22:16:46
 tags: tutorial
 category: Instructions
-thumbnailImage: https://i.imgur.com/h49k38t.jpg
-coverImage: https://i.imgur.com/ygrKOqs.jpg
+thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/thumbnails/h49k38t.jpg
+coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/ygrKOqs.jpg
 ---
 
 <!-- toc -->

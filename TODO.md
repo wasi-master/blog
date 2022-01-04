@@ -1,3 +1,3 @@
-- [ ] Implement [algolia search](https://www.algolia.com/) with [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch)
+- [x] Implement [algolia search](https://www.algolia.com/) with [hexo-algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch)
 - [ ] Add a cool 404 page to [wasi-master.github.io](https://wasi-master.github.io)
-- [ ] Use github instead of imgur for image hosting
+- [x] Use github instead of imgur for image hosting
