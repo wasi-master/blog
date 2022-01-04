@@ -8,7 +8,7 @@ subtitle: ''
 description: "The personal blog of Wasi Master aka. Arian Mollik Wasi"
 keywords:
   - "Arian Mollik Wasi"
-author: "Arian Mollik Wasi"
+author: "Wasi Master"
 language: en
 timezone: 'Asia/Dhaka'
 
@@ -139,8 +139,8 @@ nofollow:
 plugins:
   - hexo-algoliasearch
   - hexo-autonofollow
-  - hexo-wordcount
-theme: tranquilpeak
+  - hexo-word-counter
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
