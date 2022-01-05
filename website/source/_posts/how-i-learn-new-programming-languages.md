@@ -1,7 +1,15 @@
 ---
 title: How do I learn new programming languages so easily?
 date: 2022-01-03 22:16:46
-tags: about me,tutorial,prgramming,intermediate,languages,learn,challenge,fundamentals
+tags:
+    - about me
+    - tutorial
+    - programming
+    - intermediate
+    - languages
+    - learn
+    - challenge
+    - fundamentals
 category: Instructions
 thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/thumbnails/h49k38t.jpg
 coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/ygrKOqs.jpg

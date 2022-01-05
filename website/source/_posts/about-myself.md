@@ -1,7 +1,10 @@
 ---
 title: About Myself
 date: 2022-01-01 00:00:00
-tags: about me,master,life
+tags:
+    - about me
+    - master
+    - life
 categories: Introduction
 thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/thumbnails/VNviYLV.jpg
 coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/so24nGe.jpg

@@ -133,6 +133,14 @@ nofollow:
     - wasi-master.github.io
     - wasi-master.netlify.app
 
+# Sitemap config
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: true
+  tags: true
+  categories: true
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/

@@ -1,7 +1,10 @@
 ---
 title: How i remember so many programming languages
 date: 2022-01-05 00:27:34
-tags: about me,memory
+tags:
+    - about me
+    - memory
+category: Instructions
 ---
 
 If you saw my previous post on how I learn new programming languages you may be wondering how (or even if) I remember all these programming languages, now this is a valid question as the saying goes *"Jack of all trades and master of none though oftentimes better than master of one"*. Thats exactly what I am gonna discuss today
