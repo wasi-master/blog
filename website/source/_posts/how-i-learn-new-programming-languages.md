@@ -1,15 +1,15 @@
 ---
 title: How do I learn new programming languages so easily?
-date: 2022-01-02 22:16:46
-tags: tutorial
+date: 2022-01-03 22:16:46
+tags: about me,tutorial,prgramming,intermediate,languages,learn,challenge,fundamentals
 category: Instructions
 thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/thumbnails/h49k38t.jpg
 coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/ygrKOqs.jpg
 ---
 
-<!-- toc -->
 
-So if you see my [linkedin profile](https://www.linkedin.com/in/wasimaster) You may see that I know a lot of programming language and frameworks. And you may (or may not) be wondering how I learnt all those in such a young age or do I even know all those. The answer to the first question will be given in this post and the answer to the second question would be given tomorrow
+
+So if you see my [linkedin profile](https://www.linkedin.com/in/wasimaster) You may see that I know a lot of programming language and frameworks. And you may (or may not) be wondering how I learnt all those in such a young age or do I even know all those. The answer to the first question will be given in this post and the answer to the second question would be given in my next post
 
 <!-- more -->
 
