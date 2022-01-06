@@ -262,13 +262,13 @@ reward_settings:
   comment: Support what I do :)
 
 reward:
-  "Bitcoin (BTC)"     : /images/cryptocurrency_qr_codes/bitcoin.png
-  "Monero (XMR)"      : /images/cryptocurrency_qr_codes/monero.png
-  "Litecoin (LTC)"    : /images/cryptocurrency_qr_codes/litecoin.png
-  "Bitcoin Cash (BCH)": /images/cryptocurrency_qr_codes/bitcoin_cash.png
-  "Dash (DASH)"       : /images/cryptocurrency_qr_codes/dash.png
-  "Dogecoin (DOGE)"   : /images/cryptocurrency_qr_codes/doge.png
-  "Bitcoin Gold (BTG)": /images/cryptocurrency_qr_codes/bitcoin_gold.png
+  "Bitcoin ($BTC)"     : /images/cryptocurrency_qr_codes/bitcoin.png
+  "Monero ($XMR)"      : /images/cryptocurrency_qr_codes/monero.png
+  "Litecoin ($LTC)"    : /images/cryptocurrency_qr_codes/litecoin.png
+  "Bitcoin Cash ($BCH)": /images/cryptocurrency_qr_codes/bitcoin_cash.png
+  "Dash ($DASH)"       : /images/cryptocurrency_qr_codes/dash.png
+  "Dogecoin ($DOGE)"   : /images/cryptocurrency_qr_codes/doge.png
+  "Bitcoin Gold ($BTG)": /images/cryptocurrency_qr_codes/bitcoin_gold.png
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
