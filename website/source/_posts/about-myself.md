@@ -10,8 +10,6 @@ thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/
 coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/so24nGe.jpg
 ---
 
-
-
 You somehow have stumbled across my blog and are wondering who is this guy? Is he even a real person? Or you just don't care and want to go on about your life in that case feel free to click away. In this post I'll give a introduction to myself and share some details about my job what I do, what I don't do, and some nice information about myself with some facts
 <!-- more -->
 
@@ -27,7 +25,7 @@ I am just a 9th grader living in Bangladesh. I currently do not have any job and
 
 I love programming in general, I mostly code in Python but I do know a lot of other languages just in case if I ever need to understand some code written in those languages as well. I do have excellent knowledge in computers and I can google my way out of problems. I also know adequate English that helps me do all this. I help my friends and family fix all kinds of tech issues and am mostly well liked by them. I believe everyone can do something very well. Here's a quote from Einstein
 
-> Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
+> **Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.**
 > \- Albert Einstein
 
 ## What am I bad at?
@@ -46,7 +44,7 @@ I would say some of the most important people in my life are my younger brother 
 
 I like to define success as the opposite of failure. My favourite quote about success is one from Stephen Hawking
 
-> However difficult life may seem, there is always something you can do and succeed at.
+> **However difficult life may seem, there is always something you can do and succeed at.**
 > \- Stephen Hawking
 
 ## What personal achievements am I most proud of?
@@ -57,7 +55,7 @@ I would consider [pypi-command-line](https://github.com/wasi-master/pypi-command
 
 I want others to see me as a happy, kind and caring person. I do not want to be hated like others so I try not to hate others
 
-> Behind every sucessful person lies a pack of Haters!
+> **Behind every successful person lies a pack of Haters!**
 > \- Eminem
 
 ## What do I think about myself?
