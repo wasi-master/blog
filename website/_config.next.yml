@@ -262,13 +262,18 @@ reward_settings:
   comment: Support what I do :)
 
 reward:
-  "Bitcoin ($BTC)"     : /images/cryptocurrency_qr_codes/bitcoin.png
-  "Monero ($XMR)"      : /images/cryptocurrency_qr_codes/monero.png
-  "Litecoin ($LTC)"    : /images/cryptocurrency_qr_codes/litecoin.png
-  "Bitcoin Cash ($BCH)": /images/cryptocurrency_qr_codes/bitcoin_cash.png
-  "Dash ($DASH)"       : /images/cryptocurrency_qr_codes/dash.png
-  "Dogecoin ($DOGE)"   : /images/cryptocurrency_qr_codes/doge.png
-  "Bitcoin Gold ($BTG)": /images/cryptocurrency_qr_codes/bitcoin_gold.png
+  "Bitcoin ($BTC)      <details><summary>Address</summary>3GSQpoBjFqWrUHGqu6XykRE9g1R2oqA6TK</details>"    : /images/cryptocurrency_qr_codes/bitcoin.png
+  "Bitcoin Cash ($BCH) <details><summary>Address</summary>3EQySKUL1KfKCCor36QsHzaTGtR96BhFp7</details>": /images/cryptocurrency_qr_codes/bitcoin_cash.png
+  "Dogecoin ($DOGE)    <details><summary>Address</summary>9vuYXBBBTJ1srLBr7htssCFfqjUCspLpjw</details>"   : /images/cryptocurrency_qr_codes/doge.png
+  "Litecoin ($LTC)     <details><summary>Address</summary>MFpQiW4MD7TAUppx2QR3Hr6GAXzZYnGea6</details>"    : /images/cryptocurrency_qr_codes/litecoin.png
+  "Dash ($DASH)        <details><summary>Address</summary>7pxWqEwLY1cZ3QQ819RTF8x4Ya2bZKwvWS</details>"       : /images/cryptocurrency_qr_codes/dash.png
+  "Monero ($XMR)       <details><summary>Address</summary>AcH2Cg4pFpbugfxBzrQRavKxG7gYRVqDgB</details>"      : /images/cryptocurrency_qr_codes/monero.png
+  "Bitcoin Gold ($BTG) <details><summary>Address</summary>AcH2Cg4pFpbugfxBzrQRavKxG7gYRVqDgB</details>": /images/cryptocurrency_qr_codes/bitcoin_gold.png
+  "Ravencoin ($RVN)    <details><summary>Address</summary>rLMGXVtVcnajhSHwzDX1xny5XqRzhdcDXR</details>"   : /images/cryptocurrency_qr_codes/ravencoin.png
+  "Bkash (Bangladeshi)"             : /images/bangladeshi_qr_codes/bkash_qr.png
+  "Nagad Virtual Card (Bangladeshi)": /images/bangladeshi_qr_codes/nagad_qr.png
+  "Rocket (Bangladeshi)"            : /images/bangladeshi_qr_codes/rocket_qr.png
+  "Upay (Bangladeshi)"              : /images/bangladeshi_qr_codes/upay_qr.png
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
@@ -714,7 +719,7 @@ giscus:
 rating:
   enable: true
   id:     33416
-  color:  "#fc6423"
+  color:  "#f7c600"
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
