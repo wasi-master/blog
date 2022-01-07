@@ -9,7 +9,9 @@ description: "The personal blog of Wasi Master aka. Arian Mollik Wasi"
 keywords:
   - "Arian Mollik Wasi"
 author: "Wasi Master"
-language: en
+language:
+  - en
+  - bn
 timezone: 'Asia/Dhaka'
 
 # URL
