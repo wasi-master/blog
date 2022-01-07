@@ -40,7 +40,7 @@ The next thing you should do is to code something other than Hello World. Try ne
 
 ## You must make sure you understand what you're doing
 
-The common mistake I often see beginners make is that they use tutorials too much, I do agree tutorials are good for teaching a specific thing in a specific way. But for programming you must be creative and be able to build your own stuff too not just stuff made by others in tutorials. Copying code from stackoverflow is also simillar, You should not copy code you don't understand, trust me it will cause issues later down the line.
+The common mistake I often see beginners make is that they use tutorials too much, I do agree tutorials are good for teaching a specific thing in a specific way. But for programming you must be creative and be able to build your own stuff too not just stuff made by others in tutorials. Copying code from stackoverflow is also similar, You should not copy code you don't understand, trust me it will cause issues later down the line.
 
 ## General tips
 

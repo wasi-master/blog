@@ -9,7 +9,7 @@ tags:
 category: Instructions
 ---
 
-If you saw my previous post on how I learn new programming languages you may be wondering how (or even if) I remember all these programming languages, now this is a valid question as the saying goes *"Jack of all trades and master of none though oftentimes better than master of one"*. Thats exactly what I am gonna discuss today
+If you saw my previous post on how I learn new programming languages you may be wondering how (or even if) I remember all these programming languages, now this is a valid question as the saying goes *"Jack of all trades and master of none though oftentimes better than master of one"*. That's exactly what I am gonna discuss today
 
 <!-- more -->
 
