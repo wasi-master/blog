@@ -41,7 +41,10 @@ You should be able to code stuff easily as long as it isn't based on other thing
 
 ## What about you?
 
-I would say I am a "master" in python and nothing else really, I do sure know a lot of stuff but I would not consider myself a master in most of those. Even then there are things that I still don't know and am discovering regularly in python.
+I would say I am a "master" in python and nothing else really, I do sure know a lot of stuff but I would not consider myself a master in most of those. Even then there are things that I still don't know and am discovering regularly in python. I often see myself searching google for stuff in other languages since I forget them but googling shouldn't be seen as a bad thing. The main purpose is to make something. Stuff I use frequently are stuff I remember and things I don't use frequently, I often forget.
+
+> To be able to forget means sanity.
+> \- Jack London, The Star Rover
 
 ## What about me?
 
