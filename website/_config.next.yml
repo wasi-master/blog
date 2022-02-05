@@ -19,7 +19,7 @@ minify: true
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
 custom_file_path:
-  #head: source/_data/head.njk
+  head: source/_data/head.njk
   #header: source/_data/header.njk
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
@@ -209,7 +209,7 @@ footer:
   copyright: Arian Mollik Wasi
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -269,7 +269,8 @@ reward:
   "Dash ($DASH)        <details><summary>Address</summary>7pxWqEwLY1cZ3QQ819RTF8x4Ya2bZKwvWS</details>"       : /images/cryptocurrency_qr_codes/dash.png
   "Monero ($XMR)       <details><summary>Address</summary>AcH2Cg4pFpbugfxBzrQRavKxG7gYRVqDgB</details>"      : /images/cryptocurrency_qr_codes/monero.png
   "Bitcoin Gold ($BTG) <details><summary>Address</summary>AcH2Cg4pFpbugfxBzrQRavKxG7gYRVqDgB</details>": /images/cryptocurrency_qr_codes/bitcoin_gold.png
-  "Ravencoin ($RVN)    <details><summary>Address</summary>rLMGXVtVcnajhSHwzDX1xny5XqRzhdcDXR</details>"   : /images/cryptocurrency_qr_codes/ravencoin.png
+  # "Ravencoin ($RVN)    <details><summary>Address</summary>rLMGXVtVcnajhSHwzDX1xny5XqRzhdcDXR</details>"   : /images/cryptocurrency_qr_codes/ravencoin.png
+  "Zcash ($RVN)    <details><summary>Address</summary>t3bh8x8DZUKgn8Htz8HJUcWprnzHPV27Jfb</details>"   : /images/cryptocurrency_qr_codes/zcash.png
   "Bkash (Bangladeshi)"             : /images/bangladeshi_qr_codes/bkash_qr.png
   "Nagad Virtual Card (Bangladeshi)": /images/bangladeshi_qr_codes/nagad_qr.png
   "Rocket (Bangladeshi)"            : /images/bangladeshi_qr_codes/rocket_qr.png
