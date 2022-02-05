@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wasi-master.github.io/blog/2022/02/05/viewing-python-packages-information-directly-from-the-terminal/</loc>
+    
+    <lastmod>2022-02-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://wasi-master.github.io/blog/2022/01/10/5-python-tips-that-new-programmer-would-love/</loc>
     
     <lastmod>2022-02-05</lastmod>
@@ -106,7 +115,28 @@
   </url>
   
   <url>
+    <loc>http://wasi-master.github.io/blog/tags/projects/</loc>
+    <lastmod>2022-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://wasi-master.github.io/blog/tags/about-me/</loc>
+    <lastmod>2022-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://wasi-master.github.io/blog/tags/master/</loc>
+    <lastmod>2022-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://wasi-master.github.io/blog/tags/life/</loc>
     <lastmod>2022-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -142,27 +172,6 @@
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/fundamentals/</loc>
-    <lastmod>2022-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://wasi-master.github.io/blog/tags/master/</loc>
-    <lastmod>2022-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://wasi-master.github.io/blog/tags/life/</loc>
-    <lastmod>2022-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://wasi-master.github.io/blog/tags/projects/</loc>
     <lastmod>2022-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
