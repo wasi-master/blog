@@ -10,12 +10,12 @@ thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/
 coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/so24nGe.jpg
 ---
 
-You somehow have stumbled across my blog and are wondering who is this guy? Is he even a real person? Or you just don't care and want to go on about your life in that case feel free to click away. In this post I'll give a introduction to myself and share some details about my job what I do, what I don't do, and some nice information about myself with some facts
+You somehow have stumbled across my blog and are wondering who is this guy? Is he even a real person? Or you just don't care and want to go on about your life in that case feel free to click away. In this post, I'll give an introduction to myself and share some details about my job what I do, what I don't do, and some nice information about myself with some facts
 <!-- more -->
 
 ## Who am I?
 
-You may know me by my internet pseudonym Wasi Master. In fact some may even know my real name is Arian Mollik Wasi. I am a young dude from Bangladesh who is always trying out new things, I am very passionate about programming. I also like 3D Modelling, Animation, Photography, Music etc.
+You may know me by my internet pseudonym, Wasi Master. In fact, some may even know my real name is Arian Mollik Wasi. I am a young dude from Bangladesh who is always trying out new things, I am very passionate about programming. I also like 3D Modelling, Animation, Photography, Music, etc.
 
 ## What do I do?
 
@@ -23,7 +23,7 @@ I am just a 9th grader living in Bangladesh. I currently do not have any job and
 
 ## What am I good at?
 
-I love programming in general, I mostly code in Python but I do know a lot of other languages just in case if I ever need to understand some code written in those languages as well. I do have excellent knowledge in computers and I can google my way out of problems. I also know adequate English that helps me do all this. I help my friends and family fix all kinds of tech issues and am mostly well liked by them. I believe everyone can do something very well. Here's a quote from Einstein
+I love programming in general, I mostly code in Python but I do know a lot of other languages just in case I ever need to understand some code written in those languages as well. I do have excellent knowledge of computers and I can google my way out of problems. I also know adequate English that helps me do all this. I help my friends and family fix all kinds of tech issues and I'm mostly well-liked by them. I believe everyone can do something very well. Here's a quote from Einstein
 
 > **Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.**
 > \- Albert Einstein
@@ -34,7 +34,7 @@ I would say I am not very good at talking slowly 😅.
 
 ## What is the most important thing in my life?
 
-I think the most important thing in my life at the moment is proper education. So I'll try to focus on education more the next few years and keep using my computer at a minimum.
+I think the most important thing in my life at the moment is proper education. So I'll try to focus on education more in the next few years and keep using my computer at a minimum.
 
 ## Who are the most important people in my life?
 
@@ -42,7 +42,7 @@ I would say some of the most important people in my life are my younger brother 
 
 ## What’s my definition of success?
 
-I like to define success as the opposite of failure. My favourite quote about success is one from Stephen Hawking
+I like to define success as the opposite of failure. My favorite quote about success is one from Stephen Hawking
 
 > **However difficult life may seem, there is always something you can do and succeed at.**
 > \- Stephen Hawking
@@ -53,14 +53,14 @@ I would consider [pypi-command-line](https://github.com/wasi-master/pypi-command
 
 ## How do I want others to see me?
 
-I want others to see me as a happy, kind and caring person. I do not want to be hated like others so I try not to hate others
+I want others to see me as a happy, kind, and caring person. I do not want to be hated like others so I try not to hate others
 
 > **Behind every successful person lies a pack of Haters!**
 > \- Eminem
 
 ## What do I think about myself?
 
-I think of myself as a good person and not a evil one. I try to do good deeds whenever I can. And I like to spread positivity
+I think of myself as a good person and not an evil one. I try to do good deeds whenever I can. And I like to spread positivity
 
 ## If I have one year left to live, what would I do?
 

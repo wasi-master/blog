@@ -17,11 +17,11 @@ If you saw my previous post on how I learn new programming languages you may be 
 
 > _Jack of all trades and master of none though oftentimes better than master of one_
 
-From Wikipedia: "Jack of all trades, master of none" is a figure of speech used in reference to a person who has dabbled in many skills, rather than gaining expertise by focusing on one.
+From Wikipedia: "Jack of all trades, master of none" is a figure of speech used about a person who has dabbled in many skills, rather than gaining expertise by focusing on one.
 
 Read this [wikipedia article](https://www.wikiwand.com/en/Jack_of_all_trades,_master_of_none) to learn more.
 
-This is the same for me to some extent, I know a bunch of programming languages but I would not say I am master of any of them other than Python. I can say that in other languages I know enough to do simple tasks, things like Data Types, Variables, Keywords, Logical and Arithmetical Operators, If else conditions, Loops, Arrays, Functions. But just knowing that isn't gonna make you a master in any language.
+This is the same for me to some extent, I know a bunch of programming languages but I would not say I am a master of any of them other than Python. I can say that in other languages I know enough to do simple tasks, things like Data Types, Variables, Keywords, Logical and Arithmetical Operators, If else conditions, Loops, Arrays, Functions. But just knowing that isn't gonna make you a master in any language.
 
 ## So what do I need to become the master
 
@@ -33,7 +33,7 @@ The first thing is to learn the standard library it has and what you can do with
 
 Another thing to know to become a master is 3rd party libraries, these are not officially made by the language developers.
 
-For python things like requests, pylint/flake8/pep8, numpy, pandas, django/flask, Pillow, matplotlib
+For python things like requests, pylint/flake8/pep8, numpy, pandas, Django/flask, Pillow, matplotlib
 
 ### Being able to make (almost) anything
 
@@ -41,11 +41,11 @@ You should be able to code stuff easily as long as it isn't based on other thing
 
 ## What about you?
 
-I would say I am a "master" in python and nothing else really, I do sure know a lot of stuff but I would not consider myself a master in most of those. Even then there are things that I still don't know and am discovering regularly in python. I often see myself searching google for stuff in other languages since I forget them but googling shouldn't be seen as a bad thing. The main purpose is to make something. Stuff I use frequently are stuff I remember and things I don't use frequently, I often forget.
+I would say I am a "master" in python and nothing else really, I do sure know a lot of stuff but I would not consider myself a master in most of those. Even then there are things that I still don't know and am discovering regularly in python. I often see myself searching google for stuff in other languages since I forget them but googling shouldn't be seen as a bad thing. The main purpose is to make something. Things I use frequently are things I remember and things I don't use frequently, I often forget.
 
 > To be able to forget means sanity.
 > \- Jack London, The Star Rover
 
 ## What about me?
 
-So if you want to remember stuff you have to practice. Once I had stopped using python for a month and after that I had to try to remember some stuff and search google because I forgot them. Practice makes perfect.
+So if you want to remember stuff you have to practice. Once I had stopped using python for a month and after that, I had to try to remember some stuff and search google because I forgot them. Practice makes perfect.
