@@ -9,7 +9,7 @@
     <atom:link href="http://wasi-master.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>The personal blog of Wasi Master aka. Arian Mollik Wasi</description>
-    <pubDate>Sat, 05 Feb 2022 08:41:27 GMT</pubDate>
+    <pubDate>Sat, 05 Mar 2022 12:22:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -37,11 +37,11 @@
       <guid>http://wasi-master.github.io/blog/2022/02/02/the-new-programming-languages-you-should-be-using-instead-of-older-ones/</guid>
       <pubDate>Wed, 02 Feb 2022 11:59:30 GMT</pubDate>
       
-      <description>&lt;p&gt;So programming as a whole has existed for a long time. Fun Fact: The first computer programming language was created in 1883 by Ada Lovelace and Charles Babbage. But the popular langauges we see nowadays are far more recent but still very old, The programming langauge C first appeared in 1972, that is 50 years ago. Here I’ll be telling you about the newer counterparts to the languages we know an love.&lt;/p&gt;</description>
+      <description>&lt;p&gt;So programming as a whole has existed for a long time. Fun Fact: The first computer programming language was created in 1883 by Ada Lovelace and Charles Babbage. But the popular langauges we see nowadays are far more recent but still very old, The programming language C first appeared in 1972, that is 50 years ago. Here I’ll be telling you about the newer counterparts to the languages we know and love.&lt;/p&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<p>So programming as a whole has existed for a long time. Fun Fact: The first computer programming language was created in 1883 by Ada Lovelace and Charles Babbage. But the popular langauges we see nowadays are far more recent but still very old, The programming langauge C first appeared in 1972, that is 50 years ago. Here I’ll be telling you about the newer counterparts to the languages we know an love.</p><span id="more"></span><h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><p><strong>Replaced by</strong>: Kotlin</p><p>Unless you are working in an environment where you <em>have to</em> learn java to do your job, you sould use kotlin instead. This language was created in 2011 by JetBrains. In 2018, Google declared Kotlin as the default language for Android development.</p><p>Now java is not going to go away anytime soon. Java has more support and documentation available since it has existed for a longer time compared to Kotlin. But the industry is quickly switching over to Kotlin for Android development and you should also use Kotlin.</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>So programming as a whole has existed for a long time. Fun Fact: The first computer programming language was created in 1883 by Ada Lovelace and Charles Babbage. But the popular langauges we see nowadays are far more recent but still very old, The programming language C first appeared in 1972, that is 50 years ago. Here I’ll be telling you about the newer counterparts to the languages we know and love.</p><span id="more"></span><h2 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h2><p><strong>Newer Alternative</strong>: Kotlin</p><p>Unless you are working in an environment where you <em>have to</em> learn java to do your job, you should use kotlin instead. This language was created in 2011 by JetBrains. In 2018, Google declared Kotlin as the default language for Android development.</p><p>Now java is not going to go away anytime soon. Java has more support and documentation available since it has existed for a longer time compared to Kotlin. But the industry is quickly switching over to Kotlin for Android development and you should also use Kotlin.</p><h2 id="C-C"><a href="#C-C" class="headerlink" title="C/C++"></a>C/C++</h2><p><strong>Newer Alternative</strong>: Rust</p><p>The programming. With C++, memory safety is handled by the developer whereas Rust has presistent safety bounds that can be lifted by using the keyword <code>unsafe</code>.  It got the top position in “The Most Loved” category of Stack Overflow’s 2016 and 2017 developer survey. It is very much similar to C++ and easy-to-learn syntax.</p><h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h2><p><strong>Newer Alternative</strong>: TypeScript</p><p>Comparing TypeScript vs JavaScript, JavaScript is a lightweight, interpreted, dynamic language for web design. It is utilized in web app development for augmenting HTML web pages. In contrast, TypeScript acts as a superset of JavaScript.This states that Typescript is JavaScript + some other traits.</p><p>Some notable features include: Static Typing, Enhanced IDE support, Type Inference, Interoperability, Strict Null Examination</p><h2 id="Objective-C-for-iOS"><a href="#Objective-C-for-iOS" class="headerlink" title="Objective-C (for iOS)"></a>Objective-C (for iOS)</h2><p><strong>Newer Alternative</strong>: Swift</p><p>Apple states that Swift is almost 2.6 times faster than Objective C. The speed at which one can code using Swift is significantly higher than on Objective C. The syntax on Swift is much simpler and direct.</p>]]></content:encoded>
       
       
       <category domain="http://wasi-master.github.io/blog/categories/opinions/">Opinions</category>
@@ -149,11 +149,11 @@
       <category domain="http://wasi-master.github.io/blog/categories/instructions/">Instructions</category>
       
       
+      <category domain="http://wasi-master.github.io/blog/tags/about-me/">about me</category>
+      
       <category domain="http://wasi-master.github.io/blog/tags/tutorial/">tutorial</category>
       
       <category domain="http://wasi-master.github.io/blog/tags/programming/">programming</category>
-      
-      <category domain="http://wasi-master.github.io/blog/tags/about-me/">about me</category>
       
       <category domain="http://wasi-master.github.io/blog/tags/intermediate/">intermediate</category>
       
