@@ -101,6 +101,13 @@
 
   
   <url>
+    <loc>http://wasi-master.github.io/blog/tags/projects/</loc>
+    <lastmod>2024-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://wasi-master.github.io/blog/tags/about-me/</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -157,13 +164,6 @@
   </url>
   
   <url>
-    <loc>http://wasi-master.github.io/blog/tags/projects/</loc>
-    <lastmod>2024-02-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://wasi-master.github.io/blog/tags/master/</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -178,14 +178,14 @@
   </url>
   
   <url>
-    <loc>http://wasi-master.github.io/blog/tags/memory/</loc>
+    <loc>http://wasi-master.github.io/blog/tags/beginner/</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://wasi-master.github.io/blog/tags/beginner/</loc>
+    <loc>http://wasi-master.github.io/blog/tags/memory/</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
