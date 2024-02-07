@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wasi-master.github.io/blog/tags/index.html</loc>
+    <loc>http://wasi-master.github.io/blog/categories/index.html</loc>
     
     <lastmod>2024-02-06</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://wasi-master.github.io/blog/categories/index.html</loc>
+    <loc>http://wasi-master.github.io/blog/tags/index.html</loc>
     
     <lastmod>2024-02-06</lastmod>
     
@@ -94,7 +94,7 @@
 
   <url>
     <loc>http://wasi-master.github.io/blog</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,91 +102,91 @@
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/tutorial/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/programming/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/about-me/</loc>
-    <lastmod>2024-02-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://wasi-master.github.io/blog/tags/master/</loc>
-    <lastmod>2024-02-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://wasi-master.github.io/blog/tags/life/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/intermediate/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/languages/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/learn/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/challenge/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/fundamentals/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://wasi-master.github.io/blog/tags/master/</loc>
+    <lastmod>2024-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://wasi-master.github.io/blog/tags/life/</loc>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/projects/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/memory/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/tags/beginner/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -195,21 +195,21 @@
   
   <url>
     <loc>http://wasi-master.github.io/blog/categories/instructions/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/categories/introduction/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://wasi-master.github.io/blog/categories/opinions/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
