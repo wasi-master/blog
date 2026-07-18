@@ -147,7 +147,7 @@ sitemap:
 ## Themes: https://hexo.io/themes/
 plugins:
   - hexo-algoliasearch
-  - hexo-autonofollow
+  - hexo-filter-nofollow
   - hexo-word-counter
 theme: next
 
