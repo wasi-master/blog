@@ -920,11 +920,11 @@ motion:
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
     post_block: fadeIn
-    post_header: fadeInDown
-    post_body: fadeInDown
-    coll_header: fadeInLeft
+    post_header: slideDownIn
+    post_body: slideDownIn
+    coll_header: slideLeftIn
     # Only for Pisces | Gemini.
-    sidebar: fadeInUp
+    sidebar: slideUpIn
 
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
