@@ -1,11 +1,12 @@
 ---
-title: Viewing python packages' information directly from the terminal
-description: How to easily see extensive information about any python package directly from the terminal
+title: Viewing Python packages' information directly from the terminal
+date: 2022-03-05 00:00:00
+description: How to easily see extensive information about any Python package directly from the terminal
 ---
 
 ### Why do I need this?
 
-As a programmer, you probably know how to use a terminal. Sometimes *you just don't want to have to open up a browser* only to check how many downloads your favorite python package has, or you just wanna see how to do something in a specific library such as [django](https://www.djangoproject.com/ "Django makes it easier to build better web apps more quickly and with less code.") or maybe *you want to see if a package exists and see it's description before you install it*. I've also faced these issues so **I went out to create my own library to interface  [PyPI](https://pypi.org/ "The Python Package Index, abbreviated as PyPI (/ˌpaɪpiˈaɪ/) is the official third-party software repository for Python") within a terminal**. 
+As a programmer, you probably know how to use a terminal. Sometimes *you just don't want to have to open up a browser* only to check how many downloads your favorite Python package has, or you just wanna see how to do something in a specific library such as [django](https://www.djangoproject.com/ "Django makes it easier to build better web apps more quickly and with less code.") or maybe *you want to see if a package exists and see its description before you install it*. I've also faced these issues so **I went out to create my own library to interface [PyPI](https://pypi.org/ "The Python Package Index, abbreviated as PyPI (/ˌpaɪpiˈaɪ/) is the official third-party software repository for Python") within a terminal**.
 
 **I *do not earn nor do I want to earn any gains* from this, this is purely for the users' productivity**
 
@@ -35,13 +36,13 @@ pip install pypi-command-line
 
 Then you can use the `pypi -h` command to test it out. For more information **see the [installation page on the docs](https://wasi-master.github.io/pypi-command-line/install/)**
 
-And to test out the package info feature you can run.
+And to test out the package info feature you can run:
 
 ```sh
 pypi info Django
 ```
 
-`Django is just, for example, *you can see info for any package on pypi*
+Django is just an example, *you can see info for any package on PyPI*
 
 ### Can I see the source code, please?
 

@@ -6,11 +6,10 @@ tags:
     - master
     - life
 categories: Introduction
-thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/thumbnails/VNviYLV.jpg
-coverImage: https://raw.githubusercontent.com/wasi-master/blog/main/website/source/_posts/covers/so24nGe.jpg
+thumbnailImage: https://raw.githubusercontent.com/wasi-master/blog/main/themes/tranquilpeak/source/_images/thumbnails/about-me.jpg
 ---
 
-You somehow have stumbled across my blog and are wondering who is this guy? Is he even a real person? Or you just don't care and want to go on about your life in that case feel free to click away. In this post, I'll give an introduction to myself and share some details about my job what I do, what I don't do, and some nice information about myself with some facts
+You somehow have stumbled across my blog and are wondering who is this guy? Is he even a real person? Or you just don't care and want to go on about your life in that case feel free to click away. In this post, I'll give an introduction to myself and share some details about my job, what I do, what I don't do, and some nice information about myself with some facts
 <!-- more -->
 
 ## Who am I?
@@ -23,10 +22,10 @@ I am just a 9th grader living in Bangladesh. I currently do not have any job and
 
 ## What am I good at?
 
-I love programming in general, I mostly code in Python but I do know a lot of other languages just in case I ever need to understand some code written in those languages as well. I do have excellent knowledge of computers and I can google my way out of problems. I also know adequate English that helps me do all this. I help my friends and family fix all kinds of tech issues and I'm mostly well-liked by them. I believe everyone can do something very well. Here's a quote from Einstein
+I love programming in general, I mostly code in Python but I do know a lot of other languages just in case I ever need to understand some code written in those languages as well. I do have excellent knowledge of computers and I can google my way out of problems. I also know adequate English that helps me do all this. I help my friends and family fix all kinds of tech issues and I'm mostly well-liked by them. I believe everyone can do something very well. Here's a quote often attributed to Einstein
 
 > **Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.**
-> \- Albert Einstein
+> \- Unknown (commonly attributed to Albert Einstein)
 
 ## What am I bad at?
 
@@ -62,18 +61,18 @@ I want others to see me as a happy, kind, and caring person. I do not want to be
 
 I think of myself as a good person and not an evil one. I try to do good deeds whenever I can. And I like to spread positivity
 
-## If I have one year left to live, what would I do?
+## If I had one year left to live, what would I do?
 
 I'll try to visit places that I really want to visit. I'll also try to pay my debts and apologize to people.
 
-## If I have one week left to live, what would I do?
+## If I had one week left to live, what would I do?
 
 I'll do anything I want, and be reckless I guess. I'd also apologize to people if I owe them an apology.
 
-## If I have one day left to live, what would I do?
+## If I had one day left to live, what would I do?
 
 I'd make sure my friends and family know about this and then spend the day with them
 
-## If I have one minute left to live, what would I do?
+## If I had one minute left to live, what would I do?
 
 I'll just sleep for one whole minute and think about what I have done in my life.

@@ -1,12 +1,12 @@
 ---
-title: 'How I made a website that removes ads, bypassed paywalls for articles'
+title: 'How I made a website that removes ads, bypasses paywalls for articles'
 date: 2022-01-07 10:41:02
 tags:
     - projects
 category: Instructions
 ---
 
-Yesterday I built a simple website that takes in a URL and removes all ads and paywalled content and you can host it locally. The UI is very nice and pleasing. It uses google's `User-Agent` to pretend it's google and gets the same content that the URL would give to google.
+Yesterday I built a simple website that takes in a URL and removes all ads and paywalled content and you can host it locally. The UI is very nice and pleasing. It uses Google's `User-Agent` to pretend it's Google and gets the same content that the URL would give to Google.
 
 <!-- more -->
 
@@ -21,12 +21,12 @@ I first scrolled to the bottom of the [12ft.io](https://12ft.io) page and saw an
 
 > The idea is pretty simple, news sites want Google to index their content so it shows up in search results. So they don't show a paywall to the Google crawler. We benefit from this because the Google crawler will cache a copy of the site every time it crawls it. All we do is show you that cached, un-paywalled version of the page.
 
-So it depends on google crawler's cache? Cool. But what if the site isn't cached? I tried it with my own blog and it worked but couldn't show the full page for some reason.
+So it depends on Google crawler's cache? Cool. But what if the site isn't cached? I tried it with my own blog and it worked but couldn't show the full page for some reason.
 
 ## My Implementation
 
-So they load the cached version of the page the google crawler loaded.
-My website pretends to be the google crawler and no caching is required. And it can optionally cache those pages locally and there's no need for google to get involved.
+So they load the cached version of the page the Google crawler loaded.
+My website pretends to be the Google crawler and no caching is required. And it can optionally cache those pages locally and there's no need for Google to get involved.
 
 ## So how to use it?
 
