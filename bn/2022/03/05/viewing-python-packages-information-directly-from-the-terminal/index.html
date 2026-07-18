@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/blog/images/safari-pinned-tab.svg" color="#222">
+
+<link rel="stylesheet" href="/blog/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/purple/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"wasi-master.github.io","root":"/blog/","images":"/blog/images","scheme":"Pisces","darkmode":true,"version":"8.28.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"atom-one-light","dark":"atom-one-dark"},"prism":{"light":"atom-one-light","dark":"atom-one-dark"},"copy_button":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"discus","storage":true,"lazyload":false,"nav":{"disqus":{"text":"Comment with Disqus","order":1},"giscus":{"text":"Comment with Giscus","order":2},"gitalk":{"text":"Comment with Gittalk","order":3},"utterances":{"text":"Comment with Utterances","order":4}}},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"সার্চ করা হচ্ছে...","empty":"আমরা উক্ত অনুসন্ধানের জন্য কোন ফলাফল খুঁজে পাইনি: ${query}","hits_time":"${hits} টি ফলাফল ${time} মিলিসেকেন্ড এ পাওয়া গেছে","hits":"${hits} টি ফলাফল পাওয়া গেছে"},"algolia":{"appID":"1QCNGL9JKV","apiKey":"506b2a961f515a26ccc81add8696de22","indexName":"wasi-master-blog","hits":{"per_page":10}}}</script><script src="/blog/js/config.js" defer></script>
+
+    <meta name="description" content="যেকোনো Python প্যাকেজের বিস্তারিত তথ্য সরাসরি টার্মিনাল থেকে সহজে দেখার উপায়">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Python প্যাকেজের তথ্য সরাসরি টার্মিনাল থেকে দেখা">
+<meta property="og:url" content="http://wasi-master.github.io/blog/bn/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/index.html">
+<meta property="og:site_name" content="Wasi Master&#39;s Blog">
+<meta property="og:description" content="যেকোনো Python প্যাকেজের বিস্তারিত তথ্য সরাসরি টার্মিনাল থেকে সহজে দেখার উপায়">
+<meta property="og:locale">
+<meta property="og:image" content="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qgr3mb9bjz6cwworzvf4.png">
+<meta property="og:image" content="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hx5ip7cgpgkic5krmj9k.png">
+<meta property="article:published_time" content="2022-03-04T18:00:00.000Z">
+<meta property="article:modified_time" content="2026-07-18T16:26:35.367Z">
+<meta property="article:author" content="Wasi Master">
+<meta property="article:tag" content="Arian Mollik Wasi">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qgr3mb9bjz6cwworzvf4.png">
+
+
+<link rel="canonical" href="http://wasi-master.github.io/blog/bn/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"bn","comments":true,"permalink":"http://wasi-master.github.io/blog/bn/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/index.html","path":"bn/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/index.html","title":"Python প্যাকেজের তথ্য সরাসরি টার্মিনাল থেকে দেখা"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Python প্যাকেজের তথ্য সরাসরি টার্মিনাল থেকে দেখা | Wasi Master's Blog
+</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.31/dist/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous" defer></script>
+<script src="/blog/js/comments.js" defer></script><script src="/blog/js/utils.js" defer></script><script src="/blog/js/motion.js" defer></script><script src="/blog/js/sidebar.js" defer></script><script src="/blog/js/next-boot.js" defer></script><script src="/blog/js/pjax.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@5.36.0/dist/lite/builds/browser.umd.js" integrity="sha256-o49zoHLDPBm9WLg6AiliAVi3axCRTqe3ltTxLvhzAVg=" crossorigin="anonymous" defer></script><script src="/blog/js/third-party/search/algolia-search.js" defer></script>
+<script class="next-config" data-name="chatra" type="application/json">{"enable":true,"async":true,"id":"2Byp9PdueeNhL5SEf"}</script>
+<script src="/blog/js/third-party/chat/chatra.js" defer></script>
+<script async src="https://call.chatra.io/chatra.js"></script>
+
+
+
+
+  <script src="/blog/js/third-party/fancybox.js" defer></script>
+
+  <script src="/blog/js/third-party/pace.js" defer></script>
+
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@3.0.1/dist/quicklink.umd.js" integrity="sha256-44BednzIpUeQJcY8qtLyarFu0UCCTbgmWOvaoehiFQQ=" crossorigin="anonymous" defer></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"http://wasi-master.github.io/blog/bn/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/"}</script>
+  <script src="/blog/js/third-party/quicklink.js" defer></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.min.css"><script src="/blog/OneSignalSDK.min.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "688f06f5-710d-458f-84a2-67a99f68f8b3",
+    });
+  });
+</script>
+  <noscript>
+    <link rel="stylesheet" href="/blog/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/blog/atom.xml" title="Wasi Master's Blog" type="application/atom+xml">
+<link rel="alternate" href="/blog/rss.xml" title="Wasi Master's Blog" type="application/rss+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="নেভিগেশন বারের দৃশ্যমানতা টগল করুন" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/blog/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Wasi Master's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="সার্চ" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/blog/" rel="section"><i class="fa fa-home fa-fw"></i>হোম পেজ</a></li><li class="menu-item menu-item-about"><a href="/blog/about/" rel="section"><i class="fa fa-user fa-fw"></i>সম্পর্কে</a></li><li class="menu-item menu-item-tags"><a href="/blog/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>ট্যাগ এর তালিকা<span class="badge">13</span></a></li><li class="menu-item menu-item-categories"><a href="/blog/categories/" rel="section"><i class="fa fa-th fa-fw"></i>ক্যাটাগরি এর তালিকা<span class="badge">3</span></a></li><li class="menu-item menu-item-archives"><a href="/blog/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>আর্কাইভ এর তালিকা<span class="badge">7</span></a></li><li class="menu-item menu-item-sitemap"><a href="/blog/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>সার্চ
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="সার্চ করা হচ্ছে..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fab fa-algolia fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          সূচীপত্র
+        </li>
+        <li class="sidebar-nav-overview">
+          সারাংশ
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E0%A6%8F%E0%A6%9F%E0%A6%BE-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%A6%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0"><span class="nav-number">1.</span> <span class="nav-text">এটা আমার কেন দরকার?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%A4%E0%A7%87-%E0%A6%95%E0%A7%87%E0%A6%AE%E0%A6%A8"><span class="nav-number">2.</span> <span class="nav-text">দেখতে কেমন?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E0%A6%8F%E0%A6%9F%E0%A6%BE-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87"><span class="nav-number">3.</span> <span class="nav-text">এটা কাজ করে কীভাবে?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E0%A6%87%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A6%AC-%E0%A6%95%E0%A7%80%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87"><span class="nav-number">4.</span> <span class="nav-text">ইনস্টল করব কীভাবে?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E0%A6%B8%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%B8-%E0%A6%95%E0%A7%8B%E0%A6%A1%E0%A6%9F%E0%A6%BE-%E0%A6%95%E0%A6%BF-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87"><span class="nav-number">5.</span> <span class="nav-text">সোর্স কোডটা কি দেখা যাবে?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%95%E0%A6%A5%E0%A6%BE"><span class="nav-number">6.</span> <span class="nav-text">শেষ কথা</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Wasi Master"
+      src="/blog/images/logo.jpg">
+  <p class="site-author-name" itemprop="name">Wasi Master</p>
+  <div class="site-description" itemprop="description">The personal blog of Wasi Master aka. Arian Mollik Wasi</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/blog/archives/">
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">পোস্ট এর তালিকা</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/blog/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">ক্যাটাগরি এর তালিকা</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/blog/tags/">
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">ট্যাগ এর তালিকা</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="sidebar-button animated">
+    <button><i class="fa fa-comment"></i>
+      চ্যাট
+    </button>
+  </div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/wasi-master" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;wasi-master" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:arianmollik323@gmail.com" title="E-Mail → mailto:arianmollik323@gmail.com" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/wasi_master" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;wasi_master" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fab fa-x-twitter fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://stackoverflow.com/users/13123877" title="StackOverflow → https:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;13123877" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/wasi_master" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;wasi_master" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fab fa-instagram fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://linkedin.com/wasimaster" title="Linkedin → https:&#x2F;&#x2F;linkedin.com&#x2F;wasimaster" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.twitch.tv/wasi_master" title="Twitch → https:&#x2F;&#x2F;www.twitch.tv&#x2F;wasi_master" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fab fa-twitch fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://open.spotify.com/user/gvt8a9vg92cvupchdzkkftl53" title="Spotify → https:&#x2F;&#x2F;open.spotify.com&#x2F;user&#x2F;gvt8a9vg92cvupchdzkkftl53" rel="noopener me external nofollow noreferrer" target="_blank"><i class="fab fa-spotify fa-fw"></i></a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          লিঙ্কসমুহ
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="https://wasi-master.github.io/" title="https:&#x2F;&#x2F;wasi-master.github.io">Hosted with GitHub Pages</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="https://wasi-master.netlify.app/" title="https:&#x2F;&#x2F;wasi-master.netlify.app" rel="noopener" target="_blank">Hosted with Netlify</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner page posts-expand">
+
+
+    
+    
+    
+    <div class="post-block" lang="bn"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">Python প্যাকেজের তথ্য সরাসরি টার্মিনাল থেকে দেখা<a href="https://github.com/wasi-master/blog/tree/main/website/source/bn/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/index.md" class="post-edit-link" title="পোস্টটি সম্পাদনা করুন" rel="noopener external nofollow noreferrer" target="_blank"><i class="fa fa-pen-nib"></i></a>
+</h1>
+
+<div class="post-meta-container">
+    <div class="post-description">যেকোনো Python প্যাকেজের বিস্তারিত তথ্য সরাসরি টার্মিনাল থেকে সহজে দেখার উপায়</div>
+  <ul class="breadcrumb">
+            <li><a href="/blog/bn/">BN</a></li>
+            <li><a href="/blog/bn/2022/">2022</a></li>
+            <li><a href="/blog/bn/2022/03/">03</a></li>
+            <li><a href="/blog/bn/2022/03/05/">05</a></li>
+          <li>VIEWING-PYTHON-PACKAGES-INFORMATION-DIRECTLY-FROM-THE-TERMINAL</li>
+  </ul>
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h3 id="এটা-আমার-কেন-দরকার"><a href="#এটা-আমার-কেন-দরকার" class="headerlink" title="এটা আমার কেন দরকার?"></a>এটা আমার কেন দরকার?</h3><p>প্রোগ্রামার হিসেবে টার্মিনাল ব্যবহার আপনি নিশ্চয়ই জানেন। কখনো কখনো <em>শুধু ব্রাউজার খুলতে ইচ্ছা করে না</em> — হয়তো দেখতে চান আপনার প্রিয় Python প্যাকেজের ডাউনলোড কত, বা <a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.djangoproject.com/" title="Django makes it easier to build better web apps more quickly and with less code.">django</a>-র মতো কোনো নির্দিষ্ট লাইব্রেরিতে কোনো কাজ কীভাবে করে তা দেখতে চান, বা <em>কোনো প্যাকেজ আদৌ আছে কি না আর ইনস্টলের আগে তার বিবরণ দেখতে চান</em>। আমিও এই সমস্যাগুলোর মুখে পড়েছি, তাই <strong>টার্মিনালের ভেতর থেকেই <a target="_blank" rel="noopener external nofollow noreferrer" href="https://pypi.org/" title="The Python Package Index, abbreviated as PyPI (&#x2F;ˌpaɪpiˈaɪ&#x2F;) is the official third-party software repository for Python">PyPI</a>-র সাথে কাজ করার জন্য নিজের একটি লাইব্রেরি বানিয়ে ফেলেছি</strong>।</p>
+<p><strong>এ থেকে আমি <em>কোনো আয় করি না, করতে চাইও না</em>, এটা পুরোপুরি ব্যবহারকারীদের প্রোডাক্টিভিটির জন্য</strong></p>
+<h3 id="দেখতে-কেমন"><a href="#দেখতে-কেমন" class="headerlink" title="দেখতে কেমন?"></a>দেখতে কেমন?</h3><p>Information কমান্ডটি দেখতে যেমন লাগে তার একটি উদাহরণ:</p>
+<p><img data-src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qgr3mb9bjz6cwworzvf4.png" alt="প্যাকেজ info দেখতে কেমন তার ছবি"></p>
+<p>আর search কমান্ডের জন্য:</p>
+<p><img data-src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hx5ip7cgpgkic5krmj9k.png" alt="প্যাকেজ search দেখতে কেমন তার ছবি"></p>
+<p><strong>বাকি ১৫+ কমান্ডের স্ক্রিনশট দেখতে অবশ্যই <a href="https://wasi-master.github.io/pypi-command-line/usage/">ডকুমেন্টেশনটি</a> দেখুন</strong></p>
+<h3 id="এটা-কাজ-করে-কীভাবে"><a href="#এটা-কাজ-করে-কীভাবে" class="headerlink" title="এটা কাজ করে কীভাবে?"></a>এটা কাজ করে কীভাবে?</h3><p>Information কমান্ডটি প্রথমে <a target="_blank" rel="noopener external nofollow noreferrer" href="https://warehouse.pypa.io/api-reference/json.html" title="Documentation for PyPI JSON API">PyPI API</a> ব্যবহার করে প্যাকেজের সাধারণ তথ্য আনে। তারপর <a target="_blank" rel="noopener external nofollow noreferrer" href="https://docs.github.com/en/rest/reference/repos#get-a-repository" title="Documentation page for getting a repo information from the GitHub API">GitHub API</a> ব্যবহার করে star, fork, size ইত্যাদি তথ্য নেয়। সবশেষে <a target="_blank" rel="noopener external nofollow noreferrer" href="https://pypistats.org/api/" title="PyPI Stats provides Analytics for PyPI packages">PyPI Stats API</a> থেকে মাস, সপ্তাহ ও দিনপ্রতি ডাউনলোড সংখ্যা আনে। তারপর এসব একসাথে জুড়ে rich রং, প্যানেল, হাইপারলিংক আর আরও অনেক কিছু দিয়ে একটি সুন্দর প্রদর্শনী তৈরি করে! এতে caching লজিকও আছে যাতে দীর্ঘ কোডিং সেশনে ব্যবহার আরও মসৃণ থাকে!</p>
+<h3 id="ইনস্টল-করব-কীভাবে"><a href="#ইনস্টল-করব-কীভাবে" class="headerlink" title="ইনস্টল করব কীভাবে?"></a>ইনস্টল করব কীভাবে?</h3><p>শুধু এটুকু চালিয়েই ইনস্টল করতে পারবেন</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install pypi-command-line</span><br></pre></td></tr></table></figure>
+
+<p>তারপর <code>pypi -h</code> কমান্ড দিয়ে পরখ করে দেখতে পারেন। আরও তথ্যের জন্য <strong><a href="https://wasi-master.github.io/pypi-command-line/install/">ডকুমেন্টেশনের ইনস্টলেশন পেজ</a> দেখুন</strong></p>
+<p>আর প্যাকেজ info ফিচারটি পরখ করতে চালান:</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pypi info Django</span><br></pre></td></tr></table></figure>
+
+<p>Django এখানে শুধু উদাহরণ, <em>PyPI-র যেকোনো প্যাকেজের তথ্য দেখতে পারবেন</em></p>
+<h3 id="সোর্স-কোডটা-কি-দেখা-যাবে"><a href="#সোর্স-কোডটা-কি-দেখা-যাবে" class="headerlink" title="সোর্স কোডটা কি দেখা যাবে?"></a>সোর্স কোডটা কি দেখা যাবে?</h3><p>সোর্স কোড GitHub-এ আছে: <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/wasi-master/pypi-command-line">wasi-master&#x2F;pypi-command-line</a></p>
+<h3 id="শেষ-কথা"><a href="#শেষ-কথা" class="headerlink" title="শেষ কথা"></a>শেষ কথা</h3><p>আরে দাঁড়ান, আরও আছে! এতে টনকে টন <a href="https://wasi-master.github.io/pypi-command-line/smart_features/">স্মার্ট ফিচার</a> আছে যা নানাভাবে আপনাকে সাহায্য করবে, <a href="https://wasi-master.github.io/pypi-command-line/usage/">আরও অনেক কমান্ডও</a> আছে যেমন <a href="https://wasi-master.github.io/pypi-command-line/usage/#browse"> <code>browse</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#information"> <code>information</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#description"> <code>description</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#search"> <code>search</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#wheels"> <code>wheels</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#releases"> <code>releases</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#largest-files"> <code>largest-files</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#regex-search"> <code>regex-search</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#version"> <code>version</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#cache-info"> <code>cache-info</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#cache-refresh"> <code>cache-refresh</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#cache-clear"> <code>cache-clear</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#new-packages"> <code>new-packages</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#new-releases"> <code>new-releases</code> </a>, <a href="https://wasi-master.github.io/pypi-command-line/usage/#read-the-docs"> <code>read-the-docs</code> </a></p>
+
+      </div>
+      
+      
+      
+    </div>
+  <ul class="breadcrumb">
+            <li><a href="/blog/bn/">BN</a></li>
+            <li><a href="/blog/bn/2022/">2022</a></li>
+            <li><a href="/blog/bn/2022/03/">03</a></li>
+            <li><a href="/blog/bn/2022/03/05/">05</a></li>
+          <li>VIEWING-PYTHON-PACKAGES-INFORMATION-DIRECTLY-FROM-THE-TERMINAL</li>
+  </ul>
+
+    
+    
+
+
+      <div class="tabs tabs-comment">
+        <ul class="nav-tabs">
+            <li class="tab"><a href="#comment-disqus">Comment with Disqus</a></li>
+            <li class="tab"><a href="#comment-giscus">Comment with Giscus</a></li>
+            <li class="tab"><a href="#comment-gitalk">Comment with Gittalk</a></li>
+            <li class="tab"><a href="#comment-utterances">Comment with Utterances</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane disqus" id="comment-disqus">
+              
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+            </div>
+            <div class="tab-pane giscus" id="comment-giscus">
+              
+  
+  <div class="comments giscus-container">
+  </div>
+  
+  
+            </div>
+            <div class="tab-pane gitalk" id="comment-gitalk">
+              <div class="comments gitalk-container"></div>
+            </div>
+            <div class="tab-pane utterances" id="comment-utterances">
+              <div class="comments utterances-container"></div>
+            </div>
+        </div>
+      </div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+  <div class="languages">
+    <label class="lang-select-label">
+      <i class="fa fa-language"></i>
+      <span>বাংলা</span>
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </label>
+    <select class="lang-select" data-canonical="" aria-label="ভাষা নির্বাচন করুন">
+      
+        <option value="en" data-href="/blog/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/index.html" selected="">
+          English
+        </option>
+      
+        <option value="bn" data-href="/blog/bn/2022/03/05/viewing-python-packages-information-directly-from-the-terminal/index.html" selected="">
+          বাংলা
+        </option>
+      
+    </select>
+  </div>
+
+  <div class="copyright">
+    &copy; 2022 – 
+    <span itemprop="copyrightYear">২০২৬</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Arian Mollik Wasi</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="আর্টিকালে অক্ষর এর মোট পরিমাণ">4k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="মোট পড়াতে লাগবে">13 মিনিট।</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="উপরে ফিরে যান">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/wasi-master" class="github-corner" title="আমাকে GitHub এ অনুসরন কর" aria-label="আমাকে GitHub এ অনুসরন কর" rel="noopener external nofollow noreferrer" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+<script class="next-config" data-name="giscus" type="application/json">{"enable":true,"repo":"wasi-master/blog","repo_id":"R_kgDOGnLqpA","category":"Blog Post","category_id":"DIC_kwDOGnLqpM4CAip","mapping":"pathname","strict":0,"reactions_enabled":1,"emit_metadata":1,"theme":"dark","lang":"en","crossorigin":"anonymous","input_position":"bottom","loading":"lazy"}</script>
+
+<script>
+document.addEventListener('page:loaded', () => {
+  if (!CONFIG.page.comments) return;
+
+  NexT.utils.loadComments('.giscus-container')
+    .then(() => NexT.utils.getScript('https://giscus.app/client.js', {
+      attributes: {
+        async                   : true,
+        crossOrigin             : 'anonymous',
+        'data-repo'             : CONFIG.giscus.repo,
+        'data-repo-id'          : CONFIG.giscus.repo_id,
+        'data-category'         : CONFIG.giscus.category,
+        'data-category-id'      : CONFIG.giscus.category_id,
+        'data-mapping'          : CONFIG.giscus.mapping,
+        'data-strict'           : CONFIG.giscus.strict,
+        'data-reactions-enabled': CONFIG.giscus.reactions_enabled,
+        'data-emit-metadata'    : CONFIG.giscus.emit_metadata,
+        'data-theme'            : CONFIG.giscus.theme,
+        'data-lang'             : CONFIG.giscus.lang,
+        'data-input-position'   : CONFIG.giscus.input_position,
+        'data-loading'          : CONFIG.giscus.loading
+      },
+      parentNode: document.querySelector('.giscus-container')
+    }));
+});
+</script>
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"wasi-masters-blog","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/blog/js/third-party/comments/disqus.js" defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"wasi-master","repo":"blog","client_id":"cf599acd84a8137f18d3","client_secret":"36694d649aa5c2f39167e6dee0dd002624308cfa","admin_user":null,"distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"body":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"233c570ced1201af8b765a3aface43f0"}</script>
+<script src="/blog/js/third-party/comments/gitalk.js" defer></script>
+<script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"wasi-master/blog","issue_term":"pathname","theme":"github-dark"}</script>
+<script src="/blog/js/third-party/comments/utterances.js" defer></script>
+
+</body>
+</html>
