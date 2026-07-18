@@ -917,14 +917,16 @@ mermaid:
 motion:
   enable: true
   async: false
+  duration: 200
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
+    menu_item: fadeInDown
     post_block: fadeIn
-    post_header: slideDownIn
-    post_body: slideDownIn
-    coll_header: slideLeftIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
     # Only for Pisces | Gemini.
-    sidebar: slideUpIn
+    sidebar: fadeInUp
 
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
